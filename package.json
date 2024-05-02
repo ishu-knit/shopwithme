@@ -7,11 +7,10 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "npm start --prefix ./client",
-    "dev": "concurrently \"npm run start\" \"npm run client\""
+    "build":"npm install && npm install --prefix client && npm run build --prefix"
   },
   "keywords": [],
-  "author": "Nikita and Shreya",
+  "author": "Ankit ,Ishu and Prashant",
   "license": "MIT",
   "dependencies": {
     "@sendgrid/mail": "^8.1.3",
