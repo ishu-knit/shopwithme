@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "build":"npm install && npm install --prefix client && npm run build --prefix"
+    "build":"npm install && npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
   "author": "Ankit ,Ishu and Prashant",
