@@ -72,7 +72,9 @@ const CartPage = () => {
       setCart([]);
       navigate("/dashboard/user/orders");
       toast.success("Payment Completed Successfully ");
-    } catch (error) {
+    } 
+    
+    catch (error) {
       console.log(error);
       setLoading(false);
     }
